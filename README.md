@@ -133,8 +133,6 @@ When the game starts, `Start()` method calls `RoadSpawn()`, which sets up the in
 
 `Update()` method then continuously calls `RoadShuffling()`, which determines if any of the road segments need to be moved. This method is important for creating the illusion of an endless road. It checks if the first road segment in the queue has moved out of the player’s view, meaning it has gone behind them. When this happens, the segment is taken from the front of the queue, moved to the end of the road, and added back to the queue. This reuses the road segment by putting it in front of the player again, creating a smooth, endless path.
 
-Through this recycling process, `RoadCreator.cs` maintains a continuous road without constantly generating new segments. 
-
 ```csharp
 using System.Collections.Generic;
 using UnityEngine;
