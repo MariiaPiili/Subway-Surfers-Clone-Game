@@ -2,6 +2,7 @@
 
 This game is a clone of the popular endless runner Subway Surfers, where the player continuously moves forward on a road with three lanes. The objective is to dodge obstacles by switching lanes and jumping. 
 
+![game](https://github.com/MariiaPiili/Subway-Surfers-Clone-Game/blob/main/game.png)
 ## Player's movement сontrol
 
 `Player.cs` handles the player’s movement, jumping, and collision detection with obstacles. 
